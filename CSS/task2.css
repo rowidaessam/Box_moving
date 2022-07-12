@@ -1,0 +1,43 @@
+@keyframes sectionanimation{
+    0% {
+        left: 10px;
+        top: 10px;
+        background-color: purple;
+    }
+    25%{
+        left:200px;
+        top:10px;
+        background-color:lightblue;
+    }
+    75%{
+        left:200px;
+        top:200px;
+        background-color:plum;
+    }
+    90%{
+        top:200px;
+        left:10px;
+        background-color:rgb(126, 126, 165);
+    }
+}
+#square {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation: sectionanimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    left: 10px;
+    top: 10px;
+    background-color: purple;
+}
+#square:hover{
+    transform: scale(1.1);
+}
+#startbtn,#stopbtn,#js-toggle{
+    width: 100px;
+    height: 50px;
+    margin-left: 800px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+}
